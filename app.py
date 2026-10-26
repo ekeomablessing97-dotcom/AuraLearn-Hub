@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request, jsonify
 from database import LESSONS_DATABASE, PAST_QUESTIONS_DATABASE, ALL_SUBJECT_NAMES
 
